@@ -65,6 +65,8 @@ defmodule Absinthe.Federation.MixProject do
     [
       {:absinthe, "~> 1.6.5"},
       {:dataloader, "~> 1.0.9"},
+      {:protobuf, "~> 0.7.1"},
+      {:google_protos, "~> 0.1"},
 
       # Dev
       {:dialyxir, "~> 1.0.0", only: [:dev, :test], runtime: false},
